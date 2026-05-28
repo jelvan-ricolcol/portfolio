@@ -4,30 +4,42 @@ JELVAN B. RICOLCOL
 
 Strategic HR & Digital Transformation Professional
 
-Philippines / Malaysia  
-portfolio.jelvan.pro
-hello.jelvan.pro
-linkedin.com/in/jelvanricolcol
+📱 +60 11-6422 5918
+📧 hello@jelvan.pro
+🌐 https://portfolio.jelvan.pro
+💼 linkedin.com/in/jelvanricolcol
+📍 Philippines / Malaysia
 
 </div>
 
 ⸻
 
-<table width="100%">
+<table width="100%" border="1" cellspacing="0" cellpadding="12">
 <tr>
 <td>
 
 PROFILE SUMMARY
 
-A results-driven HR Generalist and Digital Transformation Specialist with strong expertise in Human Resources Management, AI-driven business systems, workflow automation, and modern digital operations.
+A results-driven HR Generalist and Digital Transformation Specialist with a strong background in Human Resources Management, AI-driven business systems, workflow automation, and modern digital operations.
 
-Proven ability to support large-scale workforce operations, streamline HR processes, and bridge people strategy with scalable technology infrastructures to improve operational efficiency and organizational growth.
+Demonstrated expertise in supporting international workforce environments, improving HR operational workflows, implementing scalable technology solutions, and bridging business strategy with intelligent digital systems.
+
+Experienced in:
+
+* Human Resources Operations
+* AI & Automation Systems
+* Workflow Optimization
+* Digital Transformation
+* Remote Workforce Management
+* SaaS & Full Stack Development
+* Business Process Improvement
+* Strategic Operations
 
 </td>
 </tr>
 </table>
 <br>
-<table width="100%" border="1">
+<table width="100%" border="1" cellspacing="0" cellpadding="15">
 <tr>
 <td align="center">
 
@@ -38,7 +50,7 @@ EMPLOYEES SUPPORTED
 </td>
 <td align="center">
 
-6+ Years
+6+ YEARS
 
 INTERNATIONAL EXPERIENCE
 
@@ -63,7 +75,7 @@ COMPLIANCE RATE
 
 PROFESSIONAL EXPERIENCE
 
-<table width="100%" border="1">
+<table width="100%" border="1" cellspacing="0" cellpadding="12">
 <tr>
 <td>
 
@@ -71,16 +83,16 @@ English Global Advisor, Digital Advertising
 
 Concentrix Malaysia | November 2024 – Current
 
-* Optimized Meta advertising campaigns for global brands through audience targeting, ad performance enhancement, and policy compliance.
-* Provided advanced client support through chat, email, Webex, and phone channels.
-* Analyzed campaign performance data to generate strategic business insights and ROI improvements.
-* Collaborated with internal escalation and engineering teams to resolve advertiser issues efficiently.
+* Optimized Meta advertising campaigns for international brands through strategic targeting and compliance improvements.
+* Delivered advanced customer and advertiser support through chat, phone, email, and Webex platforms.
+* Analyzed advertising performance metrics and generated actionable business insights to maximize ROI.
+* Collaborated with internal escalation and engineering teams to resolve complex platform issues efficiently.
 
 </td>
 </tr>
 </table>
 <br>
-<table width="100%" border="1">
+<table width="100%" border="1" cellspacing="0" cellpadding="12">
 <tr>
 <td>
 
@@ -88,16 +100,16 @@ Offshore Shared Services, HR Specialist
 
 Teleperformance USA | August 2022 – October 2024
 
-* Managed HR Helpdesk support for over 30,000 employees, applicants, and former employees.
-* Processed HR documentation including contracts, offboarding files, and compliance records.
-* Coordinated with Payroll, IT, and cross-functional departments to resolve HR and operational issues.
-* Improved HR ticketing workflow systems and operational efficiency.
+* Managed HR Helpdesk operations supporting over 30,000 employees and applicants.
+* Processed HR documentation, contracts, onboarding, and offboarding records while maintaining 100% compliance standards.
+* Coordinated with Payroll, IT, and cross-functional teams to resolve operational and employee concerns.
+* Enhanced HR ticketing workflows and contributed to improved service delivery operations.
 
 </td>
 </tr>
 </table>
 <br>
-<table width="100%" border="1">
+<table width="100%" border="1" cellspacing="0" cellpadding="12">
 <tr>
 <td>
 
@@ -105,25 +117,25 @@ Offshore Onboarding Specialist
 
 Teleperformance USA | January 2022 – July 2022
 
-* Managed onboarding operations for 70+ agents weekly.
-* Configured accounts, systems, and employee access tools.
-* Ensured onboarding compliance and operational readiness.
+* Managed onboarding processes for 70+ employees weekly.
+* Configured accounts, credentials, systems, and onboarding tools for operational readiness.
+* Ensured onboarding compliance and smooth workforce transitions.
 
 </td>
 </tr>
 </table>
 <br>
-<table width="100%" border="1">
+<table width="100%" border="1" cellspacing="0" cellpadding="12">
 <tr>
 <td>
 
 Customer Service / Retail Generalist
 
-Alorica Philippines | July 2019 – November 2021
+Alorica Philippines (Amazon US & UK Support) | July 2019 – November 2021
 
-* Handled customer support operations for Amazon US & UK accounts.
-* Resolved escalations involving refunds, delivery issues, account concerns, and disputes.
-* Maintained high customer satisfaction and operational service standards.
+* Handled customer support operations involving refunds, escalations, orders, disputes, and account management.
+* Maintained strong customer satisfaction through efficient issue resolution and communication.
+* Supported multi-channel operations across phone, chat, and email systems.
 
 </td>
 </tr>
@@ -132,37 +144,35 @@ Alorica Philippines | July 2019 – November 2021
 
 EDUCATION & PROFESSIONAL DEVELOPMENT
 
-<table width="100%" border="1">
+<table width="100%" border="1" cellspacing="0" cellpadding="12">
 <tr>
 <td>
-
-Dual Master’s Degrees
-
 Universidad Isabel I, Spain | 2024 – 2025
 
 Master’s in Human Resources & Talent Management
 
 Focused on:
 
-* Workforce lifecycle management
-* Strategic manpower planning
-* HR analytics
-* Organizational compliance
+* Workforce Lifecycle Management
+* HR Analytics
+* Strategic Workforce Planning
+* Organizational Compliance
 
+Universidad Isabel I, Spain | 2024 – 2025
 Master’s in AI for Business
 
-Specialized in:
+Focused on:
 
-* AI-driven business architectures
-* Workflow automation
-* Predictive business systems
-* AI operational integration
+* AI Business Architectures
+* Workflow Automation
+* Predictive Decision Systems
+* Intelligent Operational Integration
 
 </td>
 </tr>
 </table>
 <br>
-<table width="100%" border="1">
+<table width="100%" border="1" cellspacing="0" cellpadding="12">
 <tr>
 <td>
 
@@ -177,16 +187,16 @@ University of Northern Philippines | 2014 – 2018
 
 PROFESSIONAL CERTIFICATIONS
 
-<table width="100%" border="1">
+<table width="100%" border="1" cellspacing="0" cellpadding="12">
 <tr>
 <td>
 
 * Certified Human Resource Associate (CHRA)
 * IBM Full Stack Software Developer Professional Certificate
-* IBM Full Stack Application Development Capstone
-* IBM Software Developer Assessment V2
-* Lean Six Sigma White Belt
-* Strategy & Operations (IBMI)
+* IBM Full Stack Application Development Capstone Project
+* IBM Full Stack Software Developer Assessment V2
+* Certified Lean Six Sigma White Belt
+* Strategy & Operations Certification (IBMI)
 * Leadership Excellence Master Class
 * Essentials of Kaizen Master Class
 * TESOL Certification
@@ -199,7 +209,7 @@ PROFESSIONAL CERTIFICATIONS
 
 CORE COMPETENCIES & TECHNICAL SKILLS
 
-<table width="100%" border="1">
+<table width="100%" border="1" cellspacing="0" cellpadding="12">
 <tr>
 <th>STRATEGIC HR</th>
 <th>DIGITAL & TECH STACKS</th>
@@ -209,10 +219,11 @@ CORE COMPETENCIES & TECHNICAL SKILLS
 <td>
 
 * Workforce Planning
-* Recruitment
+* Recruitment & Talent Acquisition
 * Employee Relations
 * HR Documentation
 * HR Compliance
+* Performance Management
 * Offboarding Management
 
 </td>
@@ -220,43 +231,67 @@ CORE COMPETENCIES & TECHNICAL SKILLS
 
 * HTML / CSS
 * Full Stack Development
-* DNS Management
-* Responsive Email Design
+* GitHub & Git Systems
+* DNS & Domain Management
+* Responsive Email Development
 * CRM / HRIS Systems
-* Digital Advertising
+* Digital Advertising Platforms
+* SaaS Systems
 
 </td>
 <td>
 
-* AI Chatbot Systems
+* AI Workflow Systems
+* AI Chatbot Development
 * Prompt Engineering
 * Workflow Automation
-* Zapier / Make Automation
-* Business Intelligence
+* Zapier & Make Automation
 * Predictive Decision Modeling
+* Business Intelligence
+* Process Optimization
 
 </td>
 </tr>
 </table>
 <br>
 
-PROJECTS & PORTFOLIO
+FEATURED PROJECTS
 
-<table width="100%" border="1">
+<table width="100%" border="1" cellspacing="0" cellpadding="12">
 <tr>
 <td>
 
 Operava
 
-AI-powered workforce management and HR operations platform.
+AI-powered workforce management and remote operations platform featuring:
+
+* HR management systems
+* Smart contracts
+* Payroll automation
+* Attendance tracking
+* Workflow optimization
+
+⸻
 
 AI Task Management System
 
-Modern productivity and workflow collaboration software.
+Modern productivity and collaboration platform with:
+
+* AI-powered workflows
+* Real-time collaboration
+* Smart notifications
+* Task automation systems
+
+⸻
 
 AI Resume Analyzer
 
-AI recruitment and candidate evaluation platform.
+Intelligent recruitment system featuring:
+
+* Resume parsing
+* Candidate scoring
+* HR automation
+* AI recommendations
 
 </td>
 </tr>
@@ -265,12 +300,13 @@ AI recruitment and candidate evaluation platform.
 
 CONTACT
 
-<table width="100%" border="1">
+<table width="100%" border="1" cellspacing="0" cellpadding="12">
 <tr>
 <td>
 
-📧 hello@jelvanricolcol.pro
-🌐 www.jelvanricolcol.pro
+📧 hello@jelvan.pro
+📱 +60 11-6422 5918
+🌐 https://portfolio.jelvan.pro
 💼 linkedin.com/in/jelvanricolcol
 
 </td>

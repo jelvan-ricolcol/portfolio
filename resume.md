@@ -4,7 +4,8 @@ JELVAN B. RICOLCOL
 
 Strategic HR & Digital Transformation Professional
 
-Philippines / Malaysia  portfolio.jelvan.pro 
+Philippines / Malaysia  
+portfolio.jelvan.pro 
 hello.jelvan.pro
 linkedin.com/in/jelvanricolcol
 

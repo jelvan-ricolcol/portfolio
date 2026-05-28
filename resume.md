@@ -4,8 +4,9 @@ JELVAN B. RICOLCOL
 
 Strategic HR & Digital Transformation Professional
 
-📍 Philippines / Malaysia • 📧 hello@jelvanricolcol.pro • 🌐 www.jelvanricolcol.pro
-💼 linkedin.com/in/jelvanricolcol
+Philippines / Malaysia  portfolio.jelvan.pro 
+hello.jelvan.pro
+linkedin.com/in/jelvanricolcol
 
 </div>
 

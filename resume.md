@@ -190,17 +190,25 @@ PROFESSIONAL CERTIFICATIONS
 <table width="100%" border="1" cellspacing="0" cellpadding="12">
 <tr>
 <td>
+IBM Full Stack Software Developer Professional Certificate - May 2026 | IBM | 18 US Credits (ACE), 6 ECTS Credits (FIBAA)
+IBM Full Stack Software Developer Assessment V2 - May 2026 | IBM 
+IBM Full Stack Application Development Capstone Project V2 - May 2026 | IBM
+Responsible AI in a Global Context Professional Certificate - Apr 2026 | United Nations
+Plan and Prepare to Develop AI Solutions on Azure - Jan 2026 | Microsoft
+AI Applications in Marketing and Finance - Dec 2025 | University of Pennsylvania
+Generative AI Primer - Dec 2025 | Vanderbilt University
+AI Fundamentals for Non-Data Scientists - Dec 2025 | University of Pennsylvania
+AWS Artificial Intelligence Practitioner - Dec 2025 | Amazon Web Services
+Generative AI for HR Professionals - Dec 2025 | Vanderbilt University
 
-* Certified Human Resource Associate (CHRA)
-* IBM Full Stack Software Developer Professional Certificate
-* IBM Full Stack Application Development Capstone Project
-* IBM Full Stack Software Developer Assessment V2
-* Certified Lean Six Sigma White Belt
-* Strategy & Operations Certification (IBMI)
-* Leadership Excellence Master Class
-* Essentials of Kaizen Master Class
-* TESOL Certification
-* TEFL Certification
+Human Resources & Management
+American Staffing Association Corporate Recruiting Professional Certificate - May 2026 | American Staffing Association
+Program Management for IT Professionals - Apr 2026 | SHRM | HRCI 
+Human Resources: Creating an Employee Handbook - Apr 2026 | SHRM | HRCI
+Succeeding as a First-Time Tech Manager - Apr 2026 | Project Management Institute
+Master Class on Leadership Excellence - Feb 2025 | World Academy for Research & Development
+Six Sigma: Black Belt - Apr 2026 | NASBA
+Innovative Customer Service Techniques - Jan 2026 | Project Management Institute
 
 </td>
 </tr>

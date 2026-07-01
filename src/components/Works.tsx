@@ -128,6 +128,24 @@ const PROJECTS = [
     linkLabel: 'Open Repository',
     status: 'Public',
     stats: { value: 'Email Format', label: 'Content Type' }
+  },
+  {
+    id: 'proj-08',
+    title: 'automation-serverless-workers',
+    category: 'Automation & Edge Runtime Systems',
+    tagline: 'Automations, serverless, and workers',
+    desc: 'A systems-focused repository for automation workflows built around serverless functions and worker-based processing.',
+    details: [
+      'Covers automation patterns for scheduled jobs, event-driven tasks, and repeatable workflow execution.',
+      'Showcases serverless deployment approaches for lightweight backend logic and scalable request handling.',
+      'Includes worker-oriented execution models for background processing, queue tasks, and edge runtime scenarios.'
+    ],
+    tech: ['Automation', 'Serverless', 'Workers', 'Cloud Functions'],
+    cover: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=1200&h=900',
+    url: 'https://github.com/jelvan-ricolcol/automation-serverless-workers',
+    linkLabel: 'Open Repository',
+    status: 'Public',
+    stats: { value: 'Edge Runtime', label: 'Execution Model' }
   }
 ];
 
@@ -141,18 +159,8 @@ const HR_DOCS = [
     author: 'Jelvan Ricolcol, M.S. AI for Business',
     tags: ['AI Strategy', 'Data Privacy', 'Operations Compliance'],
     sections: [
-      {
-        title: '1.0 Purpose & Vision',
-        content: 'This policy establishes safe and highly effective operating procedures for employee interaction with Generative AI (including Large Language Models, AI Assistants, and automated work systems).'
-      },
-      {
-        title: '2.0 Guiding Principles',
-        bullets: [
-          'Human-in-the-Loop: AI tools are strictly assistive. Real humans remain fully accountable for all finalized strategies, reports, and codebases.',
-          'Ethics and Fairness: Deployed workflows must prevent discriminatory outputs, hallucinations, and bias.',
-          'Information Integrity: All generative outputs must be audited and verified before client-facing deployment.'
-        ]
-      }
+      { title: '1.0 Purpose & Vision', content: 'This policy establishes safe and highly effective operating procedures for employee interaction with Generative AI (including Large Language Models, AI Assistants, and automated work systems).' },
+      { title: '2.0 Guiding Principles', bullets: ['Human-in-the-Loop: AI tools are strictly assistive. Real humans remain fully accountable for all finalized strategies, reports, and codebases.', 'Ethics and Fairness: Deployed workflows must prevent discriminatory outputs, hallucinations, and bias.', 'Information Integrity: All generative outputs must be audited and verified before client-facing deployment.'] }
     ]
   }
 ];

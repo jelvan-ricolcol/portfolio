@@ -16,6 +16,7 @@ export default function Footer() {
             href="https://github.com/jelvan-ricolcol/portfolio"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="View portfolio repository on GitHub (opens in new tab)"
             className="flex items-center gap-2 text-neutral-500 hover:text-white transition-colors"
           >
             <Github size={16} />

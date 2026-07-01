@@ -100,7 +100,7 @@ const PROJECTS = [
     tagline: 'Workspace / domain-level brand repo',
     desc: 'A workspace-level repository documenting the product presence and brand structure of the Bolek Workspace public and suite domains.',
     details: [
-      'Covers the public-facing `www.bolekworkspace.com` site positioning and domain-level messaging structure.',
+      'Covers the public-facing `suite.bolekworkspace.com` site positioning and domain-level messaging structure.',
       'Documents `suite.bolekworkspace.com` as the application workspace surface for product and service workflows.',
       'Acts as a source for workspace branding, system context, and product-facing documentation assets.'
     ],

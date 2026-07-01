@@ -1,4 +1,4 @@
-import { Laptop } from 'lucide-react';
+import { Github, Laptop } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -12,6 +12,16 @@ export default function Footer() {
               Jelvan<span className="text-accent">.</span>pro
             </span>
           </div>
+          <a
+            href="https://github.com/jelvan-ricolcol/portfolio"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="View portfolio repository on GitHub (opens in new tab)"
+            className="flex items-center gap-2 text-neutral-500 hover:text-white transition-colors"
+          >
+            <Github size={16} />
+            <span className="text-[11px] font-mono">jelvan-ricolcol/portfolio</span>
+          </a>
           <p className="text-[11px] text-neutral-500 font-medium max-w-sm leading-relaxed">
             Integrating human operations with modern web development, process automations, and intelligent systems.
           </p>

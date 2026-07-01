@@ -11,8 +11,8 @@ const SERVICES = [
   },
   {
     id: 'ser-02',
-    title: 'AI & Chatbot Integrations',
-    desc: 'Connecting systems to LLM APIs (Gemini, OpenAI) for automated chat assistants, document retrieval systems, and intelligent agent flows.',
+    title: 'AI, WhatsApp & Worker Integrations',
+    desc: 'Connecting systems to LLM APIs with WhatsApp automation, Cloudflare Worker AI endpoints, and D1-backed conversational or workflow logic.',
     icon: Cpu,
     badge: 'AI ENGINEERING'
   },
@@ -25,8 +25,8 @@ const SERVICES = [
   },
   {
     id: 'ser-04',
-    title: 'Process Automations',
-    desc: 'Designing automated pipelines through Zapier & Make to orchestrate CRM data, generate instant PDF reports, and eliminate manual tasks.',
+    title: 'Process, Email & HR Automation',
+    desc: 'Designing automated pipelines through Zapier, Make, AWS email services, and HTML email formatting for operational workflows and HR documentation delivery.',
     icon: Workflow,
     badge: 'ENTERPRISE FLOWS'
   }

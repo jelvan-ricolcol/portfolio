@@ -12,19 +12,19 @@ const SKILL_CATEGORIES = [
     id: 'cat-02',
     title: 'AI & Automations',
     icon: Cpu,
-    skills: ['Prompt Engineering', 'Gemini & OpenAI SDKs', 'LLM Workflow Design', 'Zapier Automation', 'Make (Integromat)', 'Intelligent Agents'],
+    skills: ['Prompt Engineering', 'Gemini & OpenAI SDKs', 'LLM Workflow Design', 'WhatsApp Integration', 'Zapier/Make Automation', 'Intelligent Agents'],
   },
   {
     id: 'cat-03',
     title: 'Operations & HR Tech',
     icon: Users,
-    skills: ['Workforce Platforms', 'Onboarding Pipelines', 'Compliance Audits', 'Process Optimization', 'Helpdesk Coordination', 'Reporting Tools'],
+    skills: ['Workforce Platforms', 'Onboarding Pipelines', 'Compliance Audits', 'Email HTML Formatting', 'HR Documentation', 'Reporting Tools'],
   },
   {
     id: 'cat-04',
     title: 'Data & Deployment',
     icon: Layers,
-    skills: ['MySQL & SQL Server', 'Cloudflare Workers', 'Cloudflare Pages', 'Docker Containers', 'NPM Package Scripts', 'CI/CD Pipelines'],
+    skills: ['MySQL & SQL Server', 'Cloudflare Workers AI', 'Cloudflare D1', 'Cloudinary Media Delivery', 'Canva Design Editing', 'CI/CD Pipelines'],
   }
 ];
 

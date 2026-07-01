@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", serif;
+  
+  --color-bg: #141414;
+  --color-ink: #ffffff;
+  --color-accent: #FFFFC5;
+  --color-muted: #424242;
+}
+
+@layer base {
+  body {
+    @apply bg-bg text-ink font-sans antialiased selection:bg-accent selection:text-bg overflow-x-hidden relative cursor-none;
+  }
+  
+  /* Grain Texture Overlay */
+  body::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://grainy-gradients.vercel.app/noise.svg");
+    opacity: 0.04;
+    pointer-events: none;
+    z-index: 9999;
+  }
+
+  /* Vignette Effect */
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at center, transparent 0%, rgba(0,0,0,0.4) 100%);
+    pointer-events: none;
+    z-index: 9998;
+  }
+
+  h1, h2, h3, h4 {
+    @apply tracking-tighter;
+  }
+}
+
+@layer components {
+  .nav-link-hover {
+    @apply relative overflow-hidden inline-block;
+  }
+  
+  .nav-link-text {
+    @apply transition-transform duration-500 ease-[0.76,0,0.24,1];
+  }
+  
+  .nav-link-hover:hover .nav-link-text {
+    @apply -translate-y-full;
+  }
+  
+  .nav-link-serif {
+    @apply absolute top-full left-0 font-serif italic transition-transform duration-500 ease-[0.76,0,0.24,1];
+  }
+  
+  .nav-link-hover:hover .nav-link-serif {
+    @apply -translate-y-full;
+  }
+}
+
+@layer utilities {
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+
+  .preserve-3d {
+    transform-style: preserve-3d;
+  }
+
+  .backface-hidden {
+    backface-visibility: hidden;
+  }
+
+  .mask-text {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+
+  .text-reveal {
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: bottom;
+  }
+  
+  .smooth-transition {
+    transition: all 0.8s cubic-bezier(0.76, 0, 0.24, 1);
+  }
+
+  .vertical-text {
+    writing-mode: vertical-rl;
+  }
+}
+
+/* Lenis Smooth Scroll */
+html.lenis, html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: #141414;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #efded9;
+  border-radius: 10px;
+}
+
+.btn-unseen {
+  @apply relative px-8 py-4 overflow-hidden rounded-full border border-white/10 transition-all duration-500;
+}
+
+.btn-unseen-inner {
+  @apply relative z-10 flex items-center gap-2;
+}
+
+.btn-unseen-bg {
+  @apply absolute inset-0 bg-accent translate-y-full transition-transform duration-500 ease-[0.76,0,0.24,1];
+}
+
+.btn-unseen:hover .btn-unseen-bg {
+  @apply translate-y-0;
+}
+
+.btn-unseen:hover {
+  @apply text-bg border-accent;
+}
+
+@media (max-width: 768px) {
+  body {
+    cursor: auto !important;
+  }
+  .cursor-none {
+    cursor: auto !important;
+  }
+}
+
+/* Executive Printable PDF Layout and Cleanup Styles */
+@media print {
+  /* Hide interactive elements, background grain, canvases, floating buttons, headers, footers */
+  body, html, main, .bg-bg {
+    background: #ffffff !important;
+    color: #000000 !important;
+    overflow: visible !important;
+    height: auto !important;
+  }
+
+  /* Target everything except the printable resume and its child elements */
+  body > *:not(#printable-resume), 
+  main > *:not(#printable-resume),
+  .no-print,
+  #root > *:not(#printable-resume),
+  canvas,
+  header,
+  footer,
+  button,
+  .fixed,
+  .pointer-events-none {
+    display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  /* Make sure the printable ID is fully active and occupies maximum layout scope */
+  #printable-resume {
+    display: block !important;
+    visibility: visible !important;
+    position: absolute !important;
+    left: 0 !important;
+    top: 0 !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 1.5cm !important; /* Ideal standard US executive print margins */
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+
+  /* Page breaks alignment */
+  @page {
+    size: letter;
+    margin: 0;
+  }
+}
+

@@ -1,173 +1,345 @@
-# <img src="https://img.shields.io/badge/Jelvan_Ricolcol-Portfolio-CAFD00?style=for-the-badge&logo=codeforces&logoColor=000&labelColor=0d0d0d" alt="Jelvan Ricolcol Portfolio" />
+# <img src="https://img.shields.io/badge/Jelvan_Ricolcol-Repository_Ecosystem-CAFD00?style=for-the-badge&logo=github&logoColor=000&labelColor=0d0d0d" alt="Jelvan Ricolcol Repository Ecosystem" />
 
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![React](https://img.shields.io/badge/React-18.x-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev/)
-[![TailwindCSS v4](https://img.shields.io/badge/TailwindCSS-v4.0-38BDF8?style=flat-square&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
-[![Cloudflare Workers AI](https://img.shields.io/badge/Cloudflare-Workers_AI-F38020?style=flat-square&logo=cloudflare&logoColor=white)](https://developers.cloudflare.com/workers-ai/)
-[![IBM Certified](https://img.shields.io/badge/IBM_Certified-Full_Stack_Dev-052FAD?style=flat-square&logo=ibm&logoColor=white)](https://www.credly.com/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://github.com/jelvan-ricolcol/portfolio)
+[![Frontend](https://img.shields.io/badge/Frontend-React%20%2F%20Next.js-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev/)
+[![Styling](https://img.shields.io/badge/Styling-TailwindCSS-38BDF8?style=flat-square&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![Deployment](https://img.shields.io/badge/Deployment-Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)](https://developers.cloudflare.com/)
 
-An avant-garde, ultra-premium digital workspace and recruitment portfolio engineered for **Jelvan Ricolcol**—a hybrid **Full-Stack Software Engineer** and **Corporate Operations / People Strategist** holding a Master's degree in and **Artificial Intelligence for Business** (Spain) & in **HR & Talent Management**. 
-
-This application bridges high-performance edge computing, real-time telemetry-like aesthetics, serverless AI integration, and rigid, enterprise-grade policy blueprints in a beautifully unified single-page containerized architecture.
+This repository is the **central documentation hub** for the broader **Jelvan Ricolcol project ecosystem**. It is designed for recruiters, technical reviewers, and collaborators who need a single place to understand the full body of work rather than reviewing one portfolio folder in isolation.
 
 ---
 
-## Quick Executive Summary
+## Executive Overview
 
-*   **Target Roles:** Full-Stack Developer, Solutions Architect, HR Tech Engineer, Operations/AI Strategy Consultant.
-*   **Unique Value Prop:** Merging **IBM-certified full-stack engineering proficiency** with **academic credentials in AI Strategy & Strategic HR (M.S. AI + HR)** to build enterprise workflows that are mathematically optimized, securely compliant, and frictionless.
-*   **Production Deployment:** Containerized in Cloud Run, fronted by Nginx reverse proxies, with conversational inquiries processed live via **Cloudflare Workers AI** at edge-node locations.
+The ecosystem currently spans **8 repositories** across portfolio engineering, authentication, education technology, e-commerce, customization, and documentation.
 
----
-
-## The Tech Spectrum & Programming Languages
-
-Here is a breakdown of the languages and frameworks engineered, utilized, and maintained across this ecosystem:
-
-### Programming & Scripting Languages
-*   **TypeScript (ES2026/Strict Mode):** The structural backbone of the entire application. Leveraged for compile-time safety across state managers, DOM interfaces, and serverless edge functions.
-*   **JavaScript (ES6+):** Utilized for build tools, dynamic script loaders, and low-level canvas animation loops.
-*   **Python:** Extensively used in backend microservices, data analytics pipelines, and Flask/Django AI assessment engines.
-*   **SQL (PostgreSQL):** For relational schemas, data indexing, transaction management, and complex analytical ledger queries.
-*   **HTML5 / CSS3 (Tailwind Engine):** Modern semantic structures styled with hardware-accelerated layouts, fluid variable grids, and deep dark theme filters.
-*   **YAML / JSON Configuration:** To orchestrate CI/CD pipelines, package states, Cloudflare Wrangler configurations, and environment bindings.
-
-### Main Frameworks & Core Tooling
-*   **Vite + React 18:** Providing a lightning-fast build cycle and virtualized React tree rendering.
-*   **Tailwind CSS v4:** Directly compiled via inline CSS `@import "tailwindcss"` using state-of-the-art native variables.
-*   **Framer Motion / Motion 11.x:** Staggered transitions, smooth route animations, and responsive interactive entries.
-*   **Lenis Scroll Engine:** Custom physics-based inertial scrolling to eliminate jagged default browser reflows.
-*   **Lucide React:** Minimal, modern SVG icon structures styled dynamically with Tailwind utilities.
+### What a recruiter can verify quickly
+- Strong use of **TypeScript-first frontend engineering** across multiple products
+- Consistent delivery on **React, Vite, Next.js, Tailwind CSS, Motion, and Cloudflare-oriented deployment**
+- Clear product variety: **portfolio, secure auth, bookstore commerce, LMS platforms, customization storefronts, and documentation systems**
+- Reusable patterns in **modular UI design, deployment docs, typed configs, and production-ready repo organization**
 
 ---
 
-## Design Systems & Aesthetic Directives
+## Repository Inventory
 
-The visual architecture is built upon a high-contrast **Slate & Cyberpunk-Lime ("Cosmic Slate")** philosophy, ensuring a highly polished, interactive experience.
-
-```
-┌────────────────────────────────────────────────────────────────────────┐
-│                          COSMIC SLATE THEME                            │
-├─────────────────┬──────────────────────────────────────────────────────┤
-│ Deep Canvas     │ #070707 (Absolute Jet-Black) with 3% Glass Overlays  │
-│ Soft Neutrals   │ #111111 (Faceted Cards) & #A3A3A3 (Muted Typography)  │
-│ Primary Accent  │ #CAFD00 (Neon Cyberpunk Lime - Focus and Energy)     │
-│ Typography      │ Display: Space Grotesk | UI: Inter | Mono: JB Mono   │
-└─────────────────┴──────────────────────────────────────────────────────┘
-```
-
-### Key UI Features:
-1.  **High-Fidelity Loader & Checkpoint:** A smooth cinematic intro containing a progress tracker that waits for the **Cloudinary HD streaming video background** to fully load before enabling entry.
-2.  **Custom Interactive Elements:** A responsive, magnet-aligned custom cursor that scales, reveals tooltips, and tracks click ripples.
-3.  **Bento-Grid Case Studies:** Highly readable, modular layout structures separating selected works and compliance documents into logical, elegant hierarchies.
-4.  **Hardware-Accelerated Grain Filter:** An absolute z-index grain background overlay that mimics real photographic film texture without affecting scroll frames.
+| Repository | Role in ecosystem | Primary stack | Notes |
+|---|---|---|---|
+| [`portfolio`](https://github.com/jelvan-ricolcol/portfolio) | Public flagship portfolio and recruiter entry point | React, Vite, TypeScript, Tailwind CSS v4, Cloudflare Worker | Main professional presentation layer |
+| [`authenticator-app-operava`](https://github.com/jelvan-ricolcol/authenticator-app-operava) | Secure authentication and identity vault system | React, Vite, TypeScript, Express, Tailwind CSS v4 | Includes frontend, server, database, and security docs |
+| [`onlinebookstore`](https://github.com/jelvan-ricolcol/onlinebookstore) | Interactive bookstore showcase | React, Vite, TypeScript, Tailwind CSS v4, Motion | Commerce-style UX and order-tracking patterns |
+| [`learning-management-system-aiai`](https://github.com/jelvan-ricolcol/learning-management-system-aiai) | LMS and AI learning studio | Next.js, React, TypeScript, Recharts, Tailwind CSS | Education-focused application with multiple dashboards |
+| [`bolekstore`](https://github.com/jelvan-ricolcol/bolekstore) | Clothing customizer and storefront | React, Vite, TypeScript, Tailwind CSS v4, Motion | Product customization and retail interaction patterns |
+| [`Institute-school-AI`](https://github.com/jelvan-ricolcol/Institute-school-AI) | Academic institution portal | Next.js, React, TypeScript, Recharts, Tailwind CSS | Public campus portal plus LMS-oriented structure |
+| [`Saas-bolek-workspace`](https://github.com/jelvan-ricolcol/Saas-bolek-workspace) | Workspace / domain-level brand repo | Public-facing workspace repo | Documents `www.bolekworkspace.com` and `suite.bolekworkspace.com` |
 
 ---
 
-## System Architecture & Project Directory Structure
+## Ecosystem Architecture
 
-The workspace is split into modular components following strict production guidelines, keeping application state fully separate from presentation layers:
+```text
+Jelvan Ricolcol Ecosystem
+├── Portfolio / recruiter entry point
+│   ├── portfolio
+│   └── Saas-bolek-workspace
+├── Security / identity
+│   └── authenticator-app-operava
+├── Education technology
+│   ├── Institute-school-AI
+│   └── learning-management-system-aiai
+├── Commerce / customization
+│   ├── onlinebookstore
+│   └── bolekstore
 
-```
-├── .github/                     # Continuous Integration / CD Pipelines
-├── .wrangler/                   # Cloudflare local server and telemetry caches
-├── public/                      # Static assets, PDF resumes, and system files
-│   └── Jelvan_Ricolcol_Resume.pdf
-├── src/                         # Application Source Root
-│   ├── components/              # Highly modular React UI components
-│   │   ├── Loader.tsx           # Dynamic 1-100% video-ready gateway
-│   │   ├── Header.tsx           # Glassmorphic persistent tab manager
-│   │   ├── CustomCursor.tsx     # Magnetized custom pointer
-│   │   ├── ClickRipple.tsx      # Canvas-bound visual click tracker
-│   │   ├── Hero.tsx             # Typographic display & mission panel
-│   │   ├── Story.tsx            # Personal journey & professional mission
-│   │   ├── Services.tsx         # Architectural & consulting service list
-│   │   ├── Experience.tsx       # Interactive chronologic timeline
-│   │   ├── Education.tsx        # Academic achievements & IBM certifications
-│   │   ├── Skills.tsx           # Technical capability grid
-│   │   ├── Gallery.tsx          # "The Journey" photo collection
-│   │   ├── Tools.tsx            # Toolbelt logo list
-│   │   ├── Works.tsx            # Selected apps & PDF compliance blueprints
-│   │   ├── Contact.tsx          # Inquiry form & Edge AI chat gateway
-│   │   ├── Footer.tsx           # Legal copyright and social links
-│   │   └── CloudinaryBackground.tsx # High-definition HTML5 video stream
-│   ├── App.tsx                  # Core router and state-to-tab controller
-│   ├── index.css                # Global styles with Tailwind @theme variables
-│   └── main.tsx                 # Client hydration entry point
-├── worker/                      # Edge Infrastructure Layer
-│   └── index.ts                 # Cloudflare Worker script operating Edge AI Chat
-├── package.json                 # Dependency definitions and lifecycle scripts
-├── tsconfig.json                # Strict TypeScript configuration
-├── wrangler.jsonc               # Cloudflare Workers configuration profile
-└── README.md                    # System documentation and developer profile
 ```
 
 ---
 
-## Under the Hood: The Cloudflare Worker AI Integration
+## Detailed Repository Breakdown
 
-The **Inquiry Concierge** tab features a fully decoupled, high-speed Edge Chat Assistant that connects directly to the serverless Cloudflare Workers ecosystem:
+## 1. `portfolio`
+**Repository:** https://github.com/jelvan-ricolcol/portfolio  
+**Role:** Main recruiter-facing website and digital flagship.
 
-*   **API Endpoint:** Proxy requests are routed securely from `/api/chat` to a high-speed Cloudflare Worker.
-*   **The AI Model:** Powered by Cloudflare's serverless AI runner (`@cf/meta/llama-3-8b-instruct`), delivering response speeds in milliseconds.
-*   **Edge Security:** Keeps server secrets and API keys safely locked behind Cloudflare's secure vault, never exposing token arrays to client browsers.
-*   **Direct Fallbacks:** Designed with a smooth UI controller that guides users to active contact forms or schedules Calendly meetings if the API experiences rate limits.
+### What it demonstrates
+- Premium portfolio presentation with modular React components
+- Cloudflare Worker integration for AI-assisted inquiries
+- Strong attention to layout, branding, animation, and production polish
+- Structured presentation of experience, education, tools, services, and selected works
+
+### Verified top-level structure
+```text
+portfolio/
+├── public/
+├── src/
+│   └── components/
+├── worker/
+├── package.json
+├── vite.config.ts
+├── wrangler.jsonc
+└── README.md
+```
+
+### Verified stack
+- React 19
+- Vite
+- TypeScript
+- Tailwind CSS v4
+- Motion
+- Cloudflare Wrangler / Worker tooling
 
 ---
 
-## Full Academic & Technical Credentials
+## 2. `authenticator-app-operava`
+**Repository:** https://github.com/jelvan-ricolcol/authenticator-app-operava  
+**Role:** Authentication, OTP, encrypted vault, and secure identity project.
 
-Jelvan's profile is engineered at the intersection of complex human system architecture and code-level precision.
+### What it demonstrates
+- Security-oriented product positioning
+- Combined frontend and backend implementation in one repository
+- Typed build flow with both application and server packaging
+- Supporting documentation for deployment, structure, security, and description
 
-### Academic Foundations
-*   **Master's Degree (Universidad Isabel I, Spain - 2025)**
-    *   *Master in Artificial Intelligence for Business & in Human Resource Management & Talent Management*
-    *   *Total Volume:* 72 ECTS Credits | 1,800 Hours.
-*   **Bachelor of Science in Business Administration (University of Northern Philippines - 2018)**
-    *   *Major:* Human Resources & Development Management.
+### Verified top-level structure
+```text
+authenticator-app-operava/
+├── database/
+├── src/
+├── server.ts
+├── package.json
+├── DEPLOYMENT.md
+├── SECURITY.md
+├── structure.md
+└── README.md
+```
 
-### Technical Certifications
-*   **IBM Full Stack Software Developer Professional Certificate**
-    *   *Credits:* 18 ACE US Semester Credits | 6 FIBAA semester hours.
-    *   *Key Mastery:* React, Node.js, Express, Django, Python, Docker, Kubernetes, Serverless, and Cloud Native Development.
-*   **American Staffing Association Corporate Recruiting Professional Certificate**
-    *   *Core Mastery:* Talent Sourcing Algorithms, Compliance-Audited Onboarding, Workforce Logistics.
-*   **University of Pennsylvania**
-    *   *AI Applications in Marketing and Finance* & *AI Fundamentals for Non-Data Scientists*.
-*   **Amazon Web Services (AWS)**
-    *   *AWS Certified Artificial Intelligence Practitioner*.
+### Verified stack
+- React 19
+- Vite
+- TypeScript
+- Express
+- Tailwind CSS v4
+- esbuild / tsx
+- Cloudflare-oriented configuration via `wrangler.toml`
+
+### Verified product description
+- Zero-knowledge authenticator
+- Secure identity vault for web and Cloudflare
+- TOTP account storage and OTP generation
+- Encrypted vault synchronization and passkey-focused security positioning
 
 ---
 
-## Installation & Local Development
+## 3. `onlinebookstore`
+**Repository:** https://github.com/jelvan-ricolcol/onlinebookstore  
+**Role:** Premium online bookstore simulation and commerce UX showcase.
 
-Should you wish to review or test this application locally:
+### What it demonstrates
+- Product catalog interfaces and stateful cart interactions
+- UI for customer and publisher style workflows
+- Strong motion, typography, and visual merchandising patterns
+- Documentation beyond code through `deployment.md` and `description.md`
 
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/yourusername/portfolio.git
-    cd portfolio
-    ```
+### Verified top-level structure
+```text
+onlinebookstore/
+├── src/
+├── package.json
+├── vite.config.ts
+├── deployment.md
+├── description.md
+├── metadata.json
+└── README.md
+```
 
-2.  **Install dependencies:**
-    ```bash
-    npm install
-    ```
+### Verified stack
+- React 19
+- Vite
+- TypeScript
+- Tailwind CSS v4
+- Motion
+- Lucide React
 
-3.  **Run the development server:**
-    ```bash
-    npm run dev
-    ```
+### Verified product description
+- Interactive bookstore with live catalog filtering
+- Reactive shopping cart
+- Persistent wishlist behavior
+- Review manager and book discovery interactions
 
-4.  **Launch the Cloudflare Worker locally (requires Wrangler):**
-    ```bash
-    npx wrangler dev worker/index.ts
-    ```
+---
 
-5.  **Build the production distribution:**
-    ```bash
-    npm run build
-    ```
+## 4. `learning-management-system-aiai`
+**Repository:** https://github.com/jelvan-ricolcol/learning-management-system-aiai  
+**Role:** LMS and AI-enabled learning experience platform.
+
+### What it demonstrates
+- Multi-surface education product architecture
+- Next.js application structure with reusable components and hooks
+- Dashboard and chart-oriented UX with typed frontend patterns
+- Extensive supporting documentation for design and deployment
+
+### Verified top-level structure
+```text
+learning-management-system-aiai/
+├── app/
+├── components/
+├── hooks/
+├── package.json
+├── deployment.md
+├── lmsdesign.md
+├── lmscomponents.md
+├── metadata.json
+└── README.md
+```
+
+### Verified stack
+- Next.js 14.2.16
+- React 18
+- TypeScript
+- Recharts
+- Lucide React
+- Motion
+- Tailwind CSS 3
+
+### Verified product description
+- Academic campus and LMS-focused experience
+- Educational programs and certification-oriented portal framing
+- Dashboard and learning workflow orientation
+- AI capability metadata present in repo configuration
+
+---
+
+## 5. `bolekstore`
+**Repository:** https://github.com/jelvan-ricolcol/bolekstore  
+**Role:** Apparel storefront and customization studio.
+
+### What it demonstrates
+- Retail-focused frontend implementation
+- Product customization and visual merchandising direction
+- Supporting documentation for deployment and description
+- Reusable Vite + React + TypeScript storefront architecture
+
+### Verified top-level structure
+```text
+bolekstore/
+├── src/
+├── package.json
+├── vite.config.ts
+├── deployment.md
+├── description.md
+├── metadata.json
+└── README.md
+```
+
+### Verified stack
+- React 19
+- Vite
+- TypeScript
+- Tailwind CSS v4
+- Motion
+- Express listed in dependency graph
+
+### Verified product description
+- Online clothing storefront
+- Premium clothing configurator
+- Custom apparel print positioning
+- Feature direction aligned with rich customization flows
+
+---
+
+## 6. `Institute-school-AI`
+**Repository:** https://github.com/jelvan-ricolcol/Institute-school-AI  
+**Role:** Institutional academic portal for the Asian Academy of Artificial Intelligence.
+
+### What it demonstrates
+- Education portal architecture using Next.js app structure
+- Reusable academic platform patterns across public portal and LMS-style components
+- Supporting design, deployment, and component documentation
+- Strong overlap with structured institutional product design
+
+### Verified top-level structure
+```text
+Institute-school-AI/
+├── app/
+├── components/
+├── hooks/
+├── package.json
+├── deployment.md
+├── lmsdesign.md
+├── lmscomponents.md
+├── metadata.json
+└── README.md
+```
+
+### Verified stack
+- Next.js 14.2.16
+- React 18
+- TypeScript
+- Recharts
+- Motion
+- Tailwind CSS 3
+
+### Verified product description
+- Official academic campus portal framing
+- Certifications and vocational technical training orientation
+- Multi-surface education product structure
+- AI capability metadata present in repo configuration
+
+---
+
+## 7. `Saas-bolek-workspace`
+**Repository:** https://github.com/jelvan-ricolcol/Saas-bolek-workspace  
+**Role:** Workspace and domain-level umbrella repository.
+
+### What it demonstrates
+- Brand-level workspace naming and deployment identity
+- Public-facing linkage to active domain endpoints
+- A staging point for broader workspace operations beyond the individual app repos
+
+### Verified public repo details
+- `www.bolekworkspace.com`
+- `suite.bolekworkspace.com`
+- `jelvan.ricolcol@bolekworkspace.com`
+
+### Current repository state
+The public repo currently exposes minimal documentation, but it is still important in the ecosystem because it anchors the broader workspace identity around the deployed projects.
+
+---
+
+### What it demonstrates
+- Consolidated repo-level documentation for the full ecosystem
+- Cross-project review support for recruiters and technical evaluators
+- A private staging area for improving presentation quality before publishing or linking outward
+
+### Current repository structure
+```text
+Scratch-Pad/
+├── README.md
+└── file.md
+```
+
+---
+
+## Cross-Repository Technical Patterns
+
+Across the ecosystem, reviewers can consistently observe:
+- **TypeScript as the main implementation language**
+- **React-centered frontend development** through either Vite or Next.js
+- **Tailwind CSS-driven design systems**
+- **Documentation-aware project setup** with dedicated README, deployment, and description files
+- **Cloudflare-aware deployment thinking** across public-facing products
+- **Modular repository organization** with distinct application, component, and config layers
+
+---
+
+## Recommended Review Order
+
+If someone is reviewing the work end-to-end, this is the best sequence:
+1. Start with [`portfolio`](https://github.com/jelvan-ricolcol/portfolio) for the overall personal and technical brand
+2. Review [`authenticator-app-operava`](https://github.com/jelvan-ricolcol/authenticator-app-operava) for security and full-stack depth
+3. Review [`onlinebookstore`](https://github.com/jelvan-ricolcol/onlinebookstore) and [`bolekstore`](https://github.com/jelvan-ricolcol/bolekstore) for commerce and customization UX
+4. Review [`Institute-school-AI`](https://github.com/jelvan-ricolcol/Institute-school-AI) and [`learning-management-system-aiai`](https://github.com/jelvan-ricolcol/learning-management-system-aiai) for education platform design
+5. Use `Scratch-Pad` as the consolidated reference layer for ecosystem-wide context
 
 ---
 

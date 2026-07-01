@@ -14,8 +14,8 @@ export default function Story() {
   return (
     <section ref={containerRef} className="py-32 md:py-60 px-6 md:px-20 bg-transparent relative overflow-hidden">
       <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-20 items-start">
-          <div className="lg:col-span-5">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-20 items-start">
+          <div className="md:col-span-1 lg:col-span-5">
             <motion.div
               initial={{ opacity: 0, x: -50 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -30,7 +30,7 @@ export default function Story() {
             </motion.div>
           </div>
 
-          <div className="lg:col-span-7">
+          <div className="md:col-span-1 lg:col-span-7">
             <div className="flex flex-col gap-16 md:gap-24">
               <motion.div
                 initial={{ opacity: 0, y: 50 }}

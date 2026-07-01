@@ -1,118 +1,78 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { 
-  Layers, 
-  ExternalLink, 
-  FileCheck, 
-  Globe, 
-  FileText, 
-  ChevronDown, 
-  ChevronUp, 
-  Sparkles, 
-  Cpu,
-  ArrowUpRight
-} from 'lucide-react';
+import { ChevronDown, ArrowUpRight } from 'lucide-react';
 
 const PROJECTS = [
   {
     id: 'proj-01',
-    title: 'SaaS Analytics Dashboard',
-    category: 'Enterprise Intelligence',
-    tagline: 'Execution & Real-Time Operations Overview',
-    desc: 'High-fidelity visual interface featuring serverless telemetry, clean data-rich charts, and dynamic filtering tailored for C-suite decision-making.',
+    title: 'Jelvan Portfolio HQ',
+    category: 'Personal Brand System',
+    tagline: 'Interactive portfolio, AI contact funnel, and deployment-ready front end',
+    desc: 'A cinematic single-page portfolio engineered to present technical work, HR systems, and inquiry flows inside a polished React experience with an AI-ready contact layer.',
     details: [
-      'Optimizes dashboard layout performance by utilizing virtualized lists and memoized widgets, delivering fluid metric updates across 10,000+ data nodes.',
-      'Eliminated rendering overhead by implementing efficient canvas charts and custom-built D3.js bindings.',
-      'Designed a zero-margin Bento Grid layout that auto-aligns system parameters perfectly on desktop and mobile viewports.'
+      'Built as a modular React and TypeScript app with motion-driven transitions, portfolio tabs, and dark editorial styling.',
+      'Integrates a Cloudflare Worker-powered inquiry flow to support real-time contact interactions at the edge.',
+      'Organizes branding, project showcases, and operational blueprints into a single responsive recruitment-ready experience.'
     ],
-    tech: ['React', 'D3.js', 'Bento Grid', 'Framer Motion'],
-    stats: { value: '45.8k', label: 'Active Events/s' }
+    tech: ['React', 'TypeScript', 'Vite', 'Cloudflare Workers'],
+    cover: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=1200&h=900',
+    url: 'https://portfolio.jelvan.pro',
+    linkLabel: 'Open Portfolio',
+    status: 'Live',
+    stats: { value: 'SPA', label: 'Experience Type' }
   },
   {
     id: 'proj-02',
-    title: 'AI Recruitment Co-Pilot',
-    category: 'Talent Acquisition & Sourcing',
-    tagline: 'Automated sourcing & competency matching',
-    desc: 'Intelligent scoring panel that aggregates applicant profiles, matches technical skill competencies, and initiates personalized campaign Outreach workflows.',
-    details: [
-      'Presents complex resume parsing data in an easily digestible candidate evaluation card, drastically reducing recruiter fatigue.',
-      'Integrated semantic vector scoring for reliable competency evaluation and candidate capability matching.',
-      'Automatic timezone routing and message sequence scheduling maximizes email outreach and candidate response rates.'
-    ],
-    tech: ['Next.js', 'Tailwind CSS', 'LLM Agents', 'Zustand'],
-    stats: { value: '93%', label: 'Sourcing Accuracy' }
-  },
-  {
-    id: 'proj-03',
-    title: 'Global Compensation Engine',
-    category: 'Capital Systems & Localized Ledger',
-    tagline: 'Cross-border payroll compliance',
-    desc: 'Robust user interface managing multi-currency benefits, localized statutory compliance parameters, and instant cross-border direct deposit routing.',
-    details: [
-      'Combines complex regional tax tables and dynamic compliance checks inside a streamlined, beautiful ledger interface.',
-      'Zero-margin Ledger UI built with complete localized compliance and strict, server-authoritative state synchronization.',
-      'Scalable rendering architecture scales ledger grids fluidly on ultra-wide desktop monitors.'
-    ],
-    tech: ['TypeScript', 'GraphQL', 'Ledger Sync', 'Radix UI'],
-    stats: { value: '142', label: 'Supported Regions' }
-  },
-  {
-    id: 'proj-04',
-    title: 'Collaborative Task Canvas',
-    category: 'Workforce Productivity',
-    tagline: 'Server-authoritative pipeline boards',
-    desc: 'Tactile flow canvas featuring draggable dependency nodes, dynamic collaboration cursors, and custom state managers for modern remote squads.',
-    details: [
-      'Optimized touch states and spring animations deliver a deeply satisfying, zero-latency physical feedback loop when modifying cross-functional operational boards.',
-      'Designed to reduce administrative fatigue for project managers and agile development coordinators.',
-      'Real-time synchronization engine allows simultaneous edits by multiple remote team members without state collisions.'
-    ],
-    tech: ['HTML5 Canvas', 'React', 'WebSockets', 'Tailwind CSS'],
-    stats: { value: 'Instant', label: 'Collab Latency' }
-  },
-  {
-    id: 'proj-05',
     title: 'Bolek Workspace',
     category: 'Enterprise SaaS & Automation Workspace',
     tagline: 'Automated service delivery pipeline',
-    desc: 'An advanced cloud suite designed to manage enterprise workflows, team collaborations, and custom automated service delivery pipelines.',
+    desc: 'An advanced cloud suite designed to manage enterprise workflows, team collaboration, and service operations through a structured multi-tenant workspace.',
     details: [
-      'Features custom infinite flow workspace panels and intelligent audit trails for complete operational visibility.',
-      'Secure SSO access and multi-tenant keys ensure enterprise-level protection across all team accounts.',
-      'Seamlessly integrates with third-party service pipelines to orchestrate over 150,000 automations daily.'
+      'Showcases enterprise-facing workspace patterns for audits, service tracking, and automation visibility.',
+      'Highlights secure account access, multi-tenant architecture thinking, and operational delivery dashboards.',
+      'Connects business execution with scalable workflow orchestration for day-to-day client operations.'
     ],
     tech: ['React', 'Node.js', 'PostgreSQL', 'Tailwind CSS'],
+    cover: 'https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&q=80&w=1200&h=900',
     url: 'https://suite.bolekworkspace.com',
+    linkLabel: 'Launch Workspace',
+    status: 'Live',
     stats: { value: '150k+', label: 'Daily Automations' }
   },
   {
-    id: 'proj-06',
+    id: 'proj-03',
     title: 'StadiaBT Portal',
     category: 'Business Portal & Core Analytics',
     tagline: 'Commercial operations dashboard',
-    desc: 'A responsive digital presence built for commercial operations, featuring interactive statistics, responsive product catalog sliders, and custom animation entrances.',
+    desc: 'A responsive digital presence for commercial operations with polished animations, product-led storytelling, and dashboard-style business presentation.',
     details: [
-      'Presents clean business analytics and performance tracking modules in a highly polished corporate dashboard.',
-      'Engineered smooth scrolling and micro-animations to increase user retention and product engagement.',
-      'Complete responsive reflow ensures consistent visual hierarchy across standard desktop and mobile screens.'
+      'Presents business performance and offering information through a clean, conversion-focused portal experience.',
+      'Uses motion and layout choreography to improve retention and guide visitors through the commercial story.',
+      'Maintains responsive structure across desktop and mobile screens for client-ready presentation.'
     ],
-    tech: ['HTML5', 'PostCSS', 'GSAP Animation', 'TypeScript'],
+    tech: ['HTML5', 'PostCSS', 'GSAP', 'TypeScript'],
+    cover: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1200&h=900',
     url: 'https://portfolio.jelvan.pro/stadiabt',
+    linkLabel: 'View Project',
+    status: 'Live',
     stats: { value: '99.9%', label: 'System Uptime' }
   },
   {
-    id: 'proj-07',
+    id: 'proj-04',
     title: 'The Horizon News (THN)',
     category: 'Media Engine & Personalized Newsletter',
-    tagline: 'Personalized news & reading interface',
-    desc: 'An optimized newsletter and blog hybrid, prioritizing readable, fast layout typography and responsive email templates configured with clean inline layouts.',
+    tagline: 'Personalized news and reading interface',
+    desc: 'A newsletter and blog hybrid built to keep reading experiences fast, clear, and highly adaptable across responsive web and email layouts.',
     details: [
-      'Optimized layout and font scaling prioritizing readable, clean, and fast typography.',
-      'Configured responsive inline-styled HTML templates ensuring identical display output across all email clients.',
-      'Integrated fast caching mechanisms for zero-lag reading and personal curation filters.'
+      'Prioritizes readable typography, high-speed delivery, and lightweight interface patterns for repeat readers.',
+      'Supports consistent newsletter rendering through responsive email-friendly layout decisions.',
+      'Demonstrates editorial UI structuring and content packaging for digital publishing workflows.'
     ],
-    tech: ['HTML Email Spec', 'Tailwind', 'Responsive Typography'],
+    tech: ['HTML Email Spec', 'Tailwind CSS', 'Responsive Typography'],
+    cover: 'https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&q=80&w=1200&h=900',
     url: 'https://portfolio.jelvan.pro/thn',
+    linkLabel: 'Read Sample',
+    status: 'Live',
     stats: { value: 'Fast', label: 'Page Load Speed' }
   }
 ];
@@ -264,62 +224,78 @@ export default function Works() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {PROJECTS.map((proj) => (
-              <div 
+              <article
                 key={proj.id}
-                className="group relative flex flex-col bg-[#111111]/40 border border-white/5 rounded-sm p-6 md:p-8 hover:border-white/10 transition-all duration-300"
+                className="group relative overflow-hidden bg-[#111111]/50 border border-white/5 rounded-sm hover:border-white/10 transition-all duration-300"
               >
-                <div className="flex justify-between items-start gap-4 mb-4">
-                  <div className="flex flex-col">
-                    <span className="text-[10px] font-mono text-accent uppercase tracking-widest font-bold">
-                      {proj.category}
+                <div className="relative h-52 overflow-hidden border-b border-white/5">
+                  <img
+                    src={proj.cover}
+                    alt={proj.title}
+                    className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+                    loading="lazy"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#070707] via-[#070707]/35 to-transparent" />
+                  <div className="absolute inset-x-0 bottom-0 p-6 flex items-end justify-between gap-4">
+                    <div className="flex flex-col">
+                      <span className="text-[10px] font-mono text-accent uppercase tracking-widest font-bold">
+                        {proj.category}
+                      </span>
+                      <h4 className="text-lg md:text-xl font-bold text-white group-hover:text-accent transition-colors duration-300 uppercase tracking-tight mt-1">
+                        {proj.title}
+                      </h4>
+                    </div>
+                    <span className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/70 border border-white/10 bg-black/40 px-2.5 py-1 rounded-full">
+                      {proj.status}
                     </span>
-                    <h4 className="text-lg md:text-xl font-bold text-white group-hover:text-accent transition-colors duration-300 uppercase tracking-tight mt-1">
-                      {proj.title}
-                    </h4>
-                  </div>
-                  <div className="flex flex-col items-end text-right font-mono text-[10px] text-neutral-500 font-bold uppercase tracking-wider">
-                    <span className="text-white/30 text-[9px]">{proj.stats.label}</span>
-                    <span className="text-accent text-xs font-black mt-0.5">{proj.stats.value}</span>
                   </div>
                 </div>
 
-                <p className="text-xs md:text-sm text-neutral-400 leading-relaxed font-semibold mb-4">
-                  {proj.desc}
-                </p>
-
-                {/* Project Bullet Details */}
-                <ul className="list-disc pl-4 text-xs text-neutral-500 space-y-2 mb-6 leading-relaxed flex-grow">
-                  {proj.details.map((detail, idx) => (
-                    <li key={idx}>{detail}</li>
-                  ))}
-                </ul>
-
-                {/* Tech & Outbound Link */}
-                <div className="border-t border-white/5 pt-4 mt-auto flex items-center justify-between flex-wrap gap-4">
-                  <div className="flex flex-wrap gap-1.5">
-                    {proj.tech.map((t) => (
-                      <span 
-                        key={t} 
-                        className="text-[9px] font-mono border border-white/10 px-2 py-0.5 rounded opacity-40 group-hover:opacity-80 transition-opacity uppercase font-bold text-white"
-                      >
-                        {t}
-                      </span>
-                    ))}
+                <div className="flex flex-col p-6 md:p-8">
+                  <div className="flex justify-between items-start gap-4 mb-4">
+                    <p className="text-[11px] md:text-xs text-neutral-300 leading-relaxed font-semibold max-w-md">
+                      {proj.tagline}
+                    </p>
+                    <div className="flex flex-col items-end text-right font-mono text-[10px] text-neutral-500 font-bold uppercase tracking-wider">
+                      <span className="text-white/30 text-[9px]">{proj.stats.label}</span>
+                      <span className="text-accent text-xs font-black mt-0.5">{proj.stats.value}</span>
+                    </div>
                   </div>
 
-                  {proj.url && (
-                    <a 
+                  <p className="text-xs md:text-sm text-neutral-400 leading-relaxed font-semibold mb-4">
+                    {proj.desc}
+                  </p>
+
+                  <ul className="list-disc pl-4 text-xs text-neutral-500 space-y-2 mb-6 leading-relaxed flex-grow">
+                    {proj.details.map((detail, idx) => (
+                      <li key={idx}>{detail}</li>
+                    ))}
+                  </ul>
+
+                  <div className="border-t border-white/5 pt-4 mt-auto flex items-center justify-between flex-wrap gap-4">
+                    <div className="flex flex-wrap gap-1.5">
+                      {proj.tech.map((t) => (
+                        <span
+                          key={t}
+                          className="text-[9px] font-mono border border-white/10 px-2 py-0.5 rounded opacity-50 group-hover:opacity-90 transition-opacity uppercase font-bold text-white"
+                        >
+                          {t}
+                        </span>
+                      ))}
+                    </div>
+
+                    <a
                       href={proj.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-[10px] font-mono font-black text-neutral-400 group-hover:text-accent transition-colors duration-300 flex items-center gap-1 uppercase tracking-widest"
+                      className="text-[10px] font-mono font-black text-neutral-300 group-hover:text-accent transition-colors duration-300 flex items-center gap-1 uppercase tracking-widest"
                     >
-                      <span>Launch Site</span>
+                      <span>{proj.linkLabel}</span>
                       <ArrowUpRight size={12} className="text-neutral-500 group-hover:text-accent transition-colors" />
                     </a>
-                  )}
+                  </div>
                 </div>
-              </div>
+              </article>
             ))}
           </div>
         </div>

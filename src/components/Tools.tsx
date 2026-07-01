@@ -5,11 +5,15 @@ const TOOLS = [
   { name: 'React 19', category: 'Frontend', desc: 'Modern user-centered UI layers', icon: Layout },
   { name: 'TypeScript', category: 'Language', desc: 'Secure scale-ready type systems', icon: Code },
   { name: 'Tailwind CSS', category: 'Styling', desc: 'Performant visual utility layouts', icon: Compass },
-  { name: 'Cloudflare Workers', category: 'Serverless', desc: 'Global edge performance proxying', icon: Server },
-  { name: 'Make & Zapier', category: 'Automation', desc: 'Intelligent business logic routing', icon: Workflow },
+  { name: 'Cloudflare Workers AI', category: 'Serverless', desc: 'Global edge AI inference and APIs', icon: Server },
+  { name: 'Cloudflare D1', category: 'Data', desc: 'Serverless relational storage for worker flows', icon: Database },
+  { name: 'Make, Zapier & WhatsApp', category: 'Automation', desc: 'Automated messaging and workflow orchestration', icon: Workflow },
+  { name: 'AWS Email Services', category: 'Messaging', desc: 'Transactional email automation and delivery', icon: Terminal },
+  { name: 'Cloudinary', category: 'Media', desc: 'Asset hosting, optimization, and transformation', icon: Layout },
+  { name: 'Canva', category: 'Design', desc: 'Content editing, graphics, and visual templates', icon: Compass },
   { name: 'Prompt Models', category: 'AI Tools', desc: 'Constructed LLM prompt routing', icon: Cpu },
   { name: 'Git & GitHub', category: 'DevOps', desc: 'Production orchestration & CI/CD', icon: Terminal },
-  { name: 'SQL Databases', category: 'Data', desc: 'Relational data query schemas', icon: Database },
+  { name: 'Email HTML Formatting', category: 'Communication', desc: 'Structured and responsive email content markup', icon: Code },
 ];
 
 export default function Tools() {

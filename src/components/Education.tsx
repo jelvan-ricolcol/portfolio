@@ -268,11 +268,11 @@ export default function Education() {
               whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.1, duration: 0.8 }}
-              className="group border-b border-white/10 py-12 md:py-16 grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12 hover:bg-white/[0.02] transition-all duration-500 px-8 relative overflow-hidden cursor-none"
+              className="group border-b border-white/10 py-8 md:py-12 lg:py-16 flex flex-col md:grid md:grid-cols-12 gap-6 md:gap-8 lg:gap-12 hover:bg-white/[0.02] transition-all duration-500 px-6 md:px-8 relative overflow-hidden cursor-none"
               data-cursor="hover"
               data-cursor-text="Detail"
             >
-              <div className="md:col-span-1">
+              <div className="hidden md:block md:col-span-1">
                 <span className="text-xs font-mono opacity-20">{edu.id}</span>
               </div>
 
@@ -280,7 +280,7 @@ export default function Education() {
                 <span className="text-[10px] font-mono uppercase tracking-widest text-accent mb-2 block">
                   {edu.period}
                 </span>
-                <h3 className="text-3xl md:text-4xl font-sans font-black tracking-tighter uppercase leading-none mb-2 group-hover:text-accent transition-colors">
+                <h3 className="text-2xl md:text-3xl lg:text-4xl font-sans font-black tracking-tighter uppercase leading-none mb-2 group-hover:text-accent transition-colors">
                   {edu.school}
                 </h3>
                 <span className="text-xs font-mono opacity-40 uppercase tracking-widest block mb-1">

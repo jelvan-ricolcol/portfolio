@@ -5,7 +5,7 @@ import { Award, FileText, X, Check, Eye, Calendar, BookOpen, Star, AlertCircle, 
 const education = [
   {
     id: '01',
-    degree: 'Master in Human Resource Management and Talent management & Master in Artificial Intelligence for Business',
+    degree: 'Master in Artificial Intelligence for Business & in Human Resource Management and Talent management',
     major: '72 ECTS , 1800 Hours, Completed 2025',
     school: 'Universidad Isabel 1',
     location: 'Spain',
